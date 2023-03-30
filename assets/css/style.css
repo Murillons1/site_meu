@@ -2,7 +2,7 @@
     overflow-x: hidden;
 }
 body{
-    background-color: blanchedalmond;
+    background-color: white;
 }
 /* css menus */
 
@@ -53,8 +53,6 @@ header{
     background-image: url(../img/espaco.jpg);
 }
 
-/* css main */
-
 h1{ 
     text-align: center;
     font-family: 'Segoe UI';
@@ -63,11 +61,7 @@ h1{
     font-size: 2.5rem
 }
 
-main h3{
-    font-size: 1.5rem;
-    font-family: 'Segoe UI';
-    font-style: italic;
-}
+/* css main */
 
 
 
@@ -75,16 +69,17 @@ main .cont{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 3rem;
 }
 
-h3{
+main h3{
+    font-size: 1.5rem;
+    font-family: 'Segoe UI';
+    font-style: italic;
     text-align: center;
 }
 
-
-
-
-img{
+main img{
     opacity: 0.8;
     height: 28rem;
     width: 22rem;
@@ -98,14 +93,30 @@ img{
     opacity: 1;
 }
 
+/* fale_conosco */
+
+.fale_conosco{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #D2691E;
+}
+
+.fale_conosco button{
+    background-color: white;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.5rem;
+}
 
 /* Footer */
 
 .fot{
     display: flex;
-    font-weight: 250;
-    width: 100%;
-    flex-direction: row;
+    /* font-weight: 250;
+    width: 100%; */
+    flex-direction: column;
     justify-content: space-between;
     text-align: center;
     color: black;
@@ -113,25 +124,39 @@ img{
     opacity: 0.8;
     font-family: 'Segoe UI';
     font-weight: bold;
-    background-color: #e7753f;
+    background-color: #DCDCDC	;
 }
 
- footer, .localizacao{
-    flex-direction: column;
-    justify-content: flex-start;
+.fot p{
+    font-size: 2rem;
+    font-family: 'Segoe UI';
+
 }
 
-.empresa{
+footer #resumo{
+    font-size: 1rem;
+    margin: 1rem 2rem 3rem;
+
+}
+
+footer p{
+    margin: 1rem;
+}
+
+footer .img_footer{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-left: 95px;
-
 }
 
-.disponivel{
-    justify-content: flex-end;
+footer .img_footer img{
+    margin: 0rem 0.5rem;
 }
+
+.fot img{
+    font-size: 5px;
+
+ }
 
 
 
