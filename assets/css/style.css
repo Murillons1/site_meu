@@ -110,6 +110,10 @@ main img{
     margin: 1.5rem;
 }
 
+.fale_conosco input{
+    border-radius: 20px;
+}
+
 /* Footer */
 
 .fot{
@@ -159,8 +163,15 @@ footer .img_footer img{
  }
 
 
+/* Embaixo do footer */
 
-
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    background-color: #DCDCDC;
+}
 
 
 
